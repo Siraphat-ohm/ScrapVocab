@@ -2,4 +2,4 @@
 from vocab_attribute import *
 
 vocab = vocab_attribute()
-print(vocab.__dict__)
+print(vocab.\__dict\__)
