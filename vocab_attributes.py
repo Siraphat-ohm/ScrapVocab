@@ -16,7 +16,7 @@ class Vocab():
         self.synonyms = []
         self.antonyms = []
         self.wordfamilies = []
-# call method
+    # call method
         self.user()
         self.part_find(url_ox)
         self.defi_find(url_ox)
@@ -129,6 +129,3 @@ class Vocab():
             random.shuffle(self.wordfamilies)
             self.wordfamilies = random.choices(self.wordfamilies,k=5)
             return self.wordfamilies
-
-
-    
